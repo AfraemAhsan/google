@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 9px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    
+}
+a{text-decoration:none}
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding: 30px;
+    margin: auto;
+}
+
+.topbar {
+    background: url(images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 723px;
+    height: 136px;
+    border-radius: 15px;
+    margin: auto;
+    margin-right: 143px;
+    margin-bottom: -48px;
+}
+
+
+body:hover {
+    background: linear-gradient(60deg, #2f3a76, transparent);
+}
+
+.topbar:hover {
+    background: url(images2.jpg);
+    transform: scale(1.1);
+    transition: 1.4s;
+}
+
+.topbar h1 {
+    color: #799fc0;
+    text-align: center;
+    font-size: 64px;
+}
+
+
+.Wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.questionWrapper {
+    width: 1127px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.singleWrapper {
+    width: 643px;
+    margin-left: 232px;
+    background: white;
+    padding: 46px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    border-top: 10px solid #081c89b5;
+}
+.singleWrapper2 {
+    width: 643px;
+    margin-left: 232px;
+    border: 2px solid #ebdbdb;
+    background: white;
+    padding: 46px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.singleWrapper2 h1 {
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+    }
+
+
+.singleWrapper h1 {
+    text-align: justify;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+.singleWrapper i {
+    margin-left: -552px;
+    font-size: 10px;
+    color: red;
+}
+
+.singleWrapper2 textarea {width: 314px;margin-right: 288px;border: none;border-bottom: 2px solid #ddd;}
+.singleWrapper2 input {
+    margin-left: -559px;
+    margin-right: 8px;
+    box-shadow: 2px -2px 2px black;
+}
+.btn button {
+    margin-right: 535px;
+    width: 105px;
+    background: #1515a9;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 15px 25px;
+    padding-right: 48px;
+}
+
+.btn button:hover {
+background: linear-gradient(45deg, #9C27B0, #0f2a78ed);}
+.btn button a {
+    color: white;
+}
+
+.btn button a:hover {
+    color: #e7b118;
+}
+.copy h1 {
+    color: #333;
+    font-size: 17px;
+margin-left: 252px;}
+
+.copy h1:hover {
+    color: #8BC34A;
+}
+
+.copy2 h1 {
+    color: #333;
+    font-size: 17px;
+    margin-left: 318px;
+}
+.copy2 h1:hover {
+    color: #8BC34A;
+}
